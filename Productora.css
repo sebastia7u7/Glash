@@ -1,0 +1,243 @@
+body{
+    margin: 0%;
+    background-color: black;
+
+}
+*{
+  font-family: "Bpmf Zihi Kai Std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.colorboton{
+    background-color: black;
+    border-radius: 45px;
+}
+.barraseparadora{
+    width: 45%;
+    border-bottom: solid black 1px;
+    margin-bottom: 25px;
+}
+i{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*---------------------------Encabezado(header)-----------------------------*/
+header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    align-items:end;
+    background-color: black;
+    height: 60px;
+    position: relative;
+}
+.imglogo{
+    background-size: contain;
+    background-image: url(GlashGris.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    width: 200px;
+}
+.acabeza{
+    display:flex;
+    align-items: center;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 65px;
+    z-index: 1;
+}
+/*------------------------barra de navegacion------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+    height: 6vh;
+}
+.links{
+    text-decoration: none;
+    color:white;
+}
+.links:hover{
+    color: rgb(124, 198, 228);
+}
+.h3nav{
+    margin-right: 5vh;
+}
+/*------------------------------------------Cuerpo-------------------------*/
+main{
+    /*height: 100vh;*/
+    background-color: rgb(124, 198, 228);
+}
+section{
+    padding: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#Presentacion{
+    padding: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Grabaciones{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px black;
+    display: flex;
+    justify-content: space-around;
+}
+#Fotografia{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1000px;
+
+}
+#Proyectos{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px black;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ImgInfoPri{
+    background-image: url(focosImgInfoPri.png);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    border-radius: 10px;
+}
+.ImgInfoSecu{
+    background-image: url(ImgInfoSecu.png);
+    background-position: center center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    border-radius: 10px;
+}
+.textoInfo{
+    height: 50px;
+}
+.Informacion{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.InfoPri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.InfoSecu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 50px;
+}
+.If{
+    text-align: center;
+    color: black;
+}
+.imgprese{
+    background-image: url(CieloGlash.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    box-shadow: 0px 2px 10px rgb(5, 4, 4);
+
+}
+.txfrase{
+    font-family: "Petit Formal Script", cursive;
+    font-weight: 575;
+    font-style: normal;
+    font-size: 50px;
+}
+/*.Foto{
+    background-image: url(LogoFoto.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 250px;
+    border-radius: 10px;
+}*/
+.prifotcar{
+    background-image: url(LogoFoto.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 250px;
+}
+.segfotcar{
+    background-image: url(1.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 250px;
+}
+.cajacar{
+    position: relative;
+    width: 850px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.Vid{
+    background-color: black;
+    height: 650px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+video{
+    width: 450px;
+    height: 600px;
+}
+.contenidoGrab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 750px;
+    height: 150px;
+    font-size: 25px;
+}
+/*------------------------------------------Pie de pagina-----------------------------------*/
+footer{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 5vh;
+}
